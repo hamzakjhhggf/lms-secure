@@ -1,0 +1,49 @@
+/* Additional responsive styles */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .auth-form {
+        padding: 1.5rem;
+        margin: 0 10px;
+    }
+
+    .dashboard-content {
+        padding: 1rem;
+    }
+
+    .modal-content {
+        padding: 1rem;
+        margin: 0 10px;
+    }
+
+    .data-table {
+        font-size: 0.8rem;
+    }
+
+    .data-table th,
+    .data-table td {
+        padding: 0.5rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .header,
+    .sidebar,
+    .footer,
+    .btn {
+        display: none !important;
+    }
+
+    .main-content {
+        margin: 0;
+        padding: 0;
+    }
+
+    .dashboard-content {
+        box-shadow: none;
+        border: none;
+    }
+}
